@@ -11,8 +11,8 @@ export default function Portfolio({ innerRef }) {
                     {[1, 2, 3, 4].map((project, index) => (
                         <Grid item xs={12} md={6} key={index}>
                             <PortfolioBlock
-                                live={`https://www.canva.com/design/DAGL2FOtmnk/0RSiUYcLWK9PAR7L3019Dw/view?utm_content=DAGL2FOtmnk&utm_campaign=designshare&utm_medium=embeds&utm_source=link`}
-                                source={`https://www.canva.com/design/DAGL2FOtmnk/0RSiUYcLWK9PAR7L3019Dw/view?utm_content=DAGL2FOtmnk&utm_campaign=designshare&utm_medium=embeds&utm_source=link`}
+                                live={`https://public.tableau.com/views/E-CommerceDashboardBetaGroup/MainDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link`}
+                                source={`https://github.com/awesyahnanda/ECommerceChurn-Analysis-PredictiveModel`}
                             />
                         </Grid>
                     ))}

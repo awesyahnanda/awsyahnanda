@@ -27,10 +27,10 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Full Stack Developer",
+    firstName: "Syahnanda",
+    lastName: "",
+    initials: "AWS", // the example uses first and last, but feel free to use three or more if you like.
+    position: "an Aspiring Data Enthusiast",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -41,15 +41,15 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the Indonesia'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Aspiring Data Analyst or Scientist"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "awsyahnanda@gmail.com"
         }
     ],
     socials: [
@@ -59,22 +59,22 @@ export const info = {
             label: 'facebook'
         },
         {
-            link: "https://instagram.com",
+            link: "https://instagram.com/syahnandaa",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/awesyahnanda",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/alifsyahnanda/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://x.com/alifsyahnanda",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -82,11 +82,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Syah. I'm an aspiring Data Analyst and Scientist. I studied Engineering at EEPIS and Mastered Data Science at Purwadhika Digital Technology School, I enjoy coffee talks, and I believe data will inevitably bring us all in perfection. You should hire me!",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['Python', 'Tableau', 'SQL', 'PowerBI', 'Scikit-Learn', 'G-Suites', 'Google Analytics', 'Looker Studio','GitHub'],
+            exposedTo: ['R', 'reactjs', 'NLP', 'Product Management']
         }
     ,
     hobbies: [

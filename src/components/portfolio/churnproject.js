@@ -6,9 +6,9 @@ export default function Churnproject({ innerRef }) {
             <div
                 style={{
                     position: "relative",
-                    width: "90%",
+                    width: "100%",
                     height: 0,
-                    paddingTop: "56.2500%",
+                    paddingTop: "40%",
                     paddingBottom: 0,
                     boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
                     marginTop: "1.6em",
@@ -19,7 +19,7 @@ export default function Churnproject({ innerRef }) {
                 }}
             >
                 <iframe
-                    loading="lazy"
+                    loading="fast"
                     style={{
                         position: "absolute",
                         width: "100%",

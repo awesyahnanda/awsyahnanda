@@ -4,7 +4,7 @@ import { Box } from "@mui/material";
 import Churnproject from './churnproject';
 
 function PortfolioBlock(props) {
-   const { live, source  } = props;
+   const {live, source} = props;
    return (
       <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
          {/* Call component */}
@@ -12,7 +12,7 @@ function PortfolioBlock(props) {
          <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}
             alignItems={'center'} fontSize={'1.5rem'} py={'2rem'}>
             <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
-               <IconLink link={live} title={'Live Demo'} icon={'fa fa-safari'} />
+               <IconLink link={live} title={'Dashboard'} icon={'fa fa-dashboard'} />
             </Box>
             <Box p={1} border={'2px solid black'} borderRadius={'25px'}>
                <IconLink link={source} title={'Source Code'} icon={'fa fa-code'} />
