@@ -23,11 +23,6 @@ export default function Resume({ innerRef }) {
             allowfullscreen="allowfullscreen"
             allow="fullscreen">
          </iframe>
-
-         {/* <Box alt={'image of resume'} style={{background: info.gradient}} component={'img'} src={""} width={{xs: '35vh', md: '40vh'}}
-              height={{xs: '35vh', md: '40vh'}}
-              borderRadius={'50%'} p={'0.75rem'} mb={{xs: '1rem', sm: 0}} mr={{xs: 0, md: '2rem'}}/> */}
-
       </Box>
    )
 }
