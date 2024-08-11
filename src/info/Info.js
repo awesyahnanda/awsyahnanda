@@ -28,78 +28,86 @@ export const info = {
     position: "an Aspiring Data Enthusiast",
     selfPortrait: "/assets/img/self.png", // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
-    baseColor: colors[0],
+    baseColor: colors[1],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '☕',
-            text: 'fueled by coffee'
+            text: 'Powered by coffee'
         },
         {
             emoji: '🌎',
-            text: 'based in the ID'
+            text: 'Based in the Jakarta, Indonesia'
         },
         {
             emoji: "💼",
-            text: "Aspiring Data Analyst & Data Scientist"
+            text: "Aspiring Analyst - Data Scientist"
         },
         {
             emoji: "📧",
-            text: "awsyahnanda@gmail.com"
+            text: "alifsyahnanda@outlook.com"
+        },
+        {
+            emoji: "📝",
+            text: "Data Enthusiast with Engineering Background"
         }
     ],
     socials: [
-        {
-            link: "https://facebook.com",
-            icon: 'fa fa-facebook',
-            label: 'facebook'
-        },
-        {
-            link: "https://instagram.com",
+               {
+            link: "https://instagram.com/syahnandaa",
             icon: 'fa fa-instagram',
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/awesyahnanda",
             icon: "fa fa-github",
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://linkedin.com/alifsyahnanda",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-        {
-            link: "https://twitter.com",
-            icon: "fa fa-twitter",
-            label: 'twitter'
-        }
+         {
+            link: "mailto:alifsyahnanda@outlook.com",
+            icon: 'fa fa-envelope',
+            label: 'email'
+        },
+        // {
+        //     link: "https://twitter.com",
+        //     icon: "fa fa-twitter",
+        //     label: 'twitter'
+        // }
         // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
         // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Syah. I'm an aspiring Data Analyst and Scientist. I studied Engineering at EEPIS and Mastered Data Science at Purwadhika Digital Technology School, I enjoy coffee talks, and I believe data will inevitably bring us all in perfection. You should hire me!",
+    bio: `Hello there! I'm Syah. an aspiring Data Analyst and Scientist from Jakarta,Indonesia. Specializing in Python, SQL, Tableau and other analytical tools. I was working professionally in sustainability and engineering field for about almost 3 years now, and turn out realigning my career path to actively mastering data science and analytics at Purwadhika Digital Technology School. I couldn't be happier to drive transformational solutions by data-driven across various industries. <br /><br /> I'm currently developing on learning data analytics, science and Machine Learning Models. Once I feel I've become fairly proficient in my preferred stack, I plan to expand my horizons to NLP, Gerative-AI, and eventually I'll probably end up giving into the Data & Product Craze. I enjoy coffee talks, and I believe data will inevitably bring us all in perfection. I thrive on continual growth, supported by a strong work ethic and excellent communication skills.`,
     skills:
     {
-        proficientWith: ['Python', 'Tableau', 'SQL', 'PowerBI', 'Scikit-Learn', 'G-Suites', 'Google Analytics', 'Looker Studio','GitHub'],
-        exposedTo: ['R', 'reactjs', 'NLP', 'Product Management']
+        proficientWith: ['Python', 'Tableau', 'SQL', 'PowerBI', 'Scikit-Learn', 'G-Suites', 'Google Analytics','Microsoft Office', 'Looker Studio','GitHub','Visio','VS Code'],
+        exposedTo: ['R', 'reactjs', 'NLP', 'Product Management','Jira','Minitab','Draw.io']
     }
     ,
     hobbies: [
         {
-            label: 'reading',
-            emoji: '📖'
+            label: 'brewing',
+            emoji: '☕'
         },
         {
-            label: 'theater',
-            emoji: '🎭'
+            label: 'duathlon',
+            emoji: '🚴‍♂️🏃‍♂️'
+        },
+        {
+            label: 'photography-videography',
+            emoji: '📸🎬'
         },
         {
             label: 'movies',
             emoji: '🎥'
         },
         {
-            label: 'cooking',
-            emoji: '🌶'
+            label: 'reading',
+            emoji: '📖'
         }
         // Same as above, change the emojis to match / relate to your hobbies or interests.
         // You can also remove the emojis if you'd like, I just think they look cute :P
@@ -107,17 +115,16 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             type : "component",
-            title: "Analysis and Classification Predictive Modeling",
+            title: "Analysis and Classification Predictive Modeling for Customer Churn",
             live: "", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "", // this should be a link to the **repository** of the project, where the code is hosted.
-            // component: <Mock1/>
+            source: "https://github.com/awesyahnanda/ECommerceChurn-Analysis-PredictiveModel", // this should be a link to the **repository** of the project, where the code is hosted.
             component: <Mock1 />
         },
         {
             type : "component",
-            title: "Analysis and Regression Predictive Modeling",
+            title: "Analysis and Regression Predictive Modeling for Used Car Price",
             live: "",
-            source: "",
+            source: "https://github.com/awesyahnanda/UsedCarPrice-Analysis-PredictiveModel",
             component: 
             <>
                 <div  style={{
@@ -157,7 +164,7 @@ export const info = {
             type : "component",
             title: "Supermarket Customer Analysis using RFM Method",
             live: "",
-            source: "",
+            source: "https://github.com/awesyahnanda/SupermarketCustomers-RFM-Analysis",
             component: 
             <>
                 <div  style={{
@@ -175,7 +182,7 @@ export const info = {
                         }}
                     >
                         <iframe 
-                            loading="lazy"
+                            loading="fast"
                             style={{
                                 position: "absolute",
                                 width: "100%",
@@ -195,57 +202,78 @@ export const info = {
 
         },
         {
+            type : "component",
+            title: "Clustering of countries in crisis for international HELP using KMEANS Unsupervised Learning",
+            live: "",
+            source: "https://github.com/awesyahnanda/Clustering-Countries-KMEANS",
+            component: <>
+            <div  style={{
+                        position: "relative",
+                        width: "95%",
+                        height: 0,
+                        paddingTop: "40%",
+                        paddingBottom: 0,
+                        boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
+                        marginTop: "1.6em",
+                        marginBottom: "0.9em",
+                        overflow: "hidden",
+                        borderRadius: 8,
+                        willChange: "transform"
+                    }}
+                >
+                    <iframe 
+                        loading="fast"
+                        style={{
+                            position: "absolute",
+                            width: "100%",
+                            height: "100%",
+                            top: 0,
+                            left: 0,
+                            border: "none",
+                            padding: 0,
+                            margin: 0
+                        }}
+                        src="https://www.canva.com/design/DAF5LbF1ad0/mtMsp1MYtWyIpt9Tf4zi1A/view?embed" 
+                        allowfullscreen="allowfullscreen" 
+                        allow="fullscreen">
+                    </iframe>
+            </div>
+        </>
+        },
+        {
             type : "img",
-            title: "SQL Projects",
+            title: "Simple HR-Dashboard",
             live: "",
             source: "",
-            component: "/assets/img/mock2.png"
+            component: "/assets/img/simplehrtableau.png"
         },
         {
-            type : "component",
-            title: "R Projects",
-            live: "",
-            source: "",
-            component: <Mock1 />
-        },
-        {
-            type : "component",
+            type : "img",
             title: "Property Analysis in Melbourne City using Tableau",
             live: "",
-            source: "",
-            component: <Mock1 />
+            source: "https://public.tableau.com/views/MelbournePropertyPrice/Story1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+            component: "/assets/img/tableaustory.png"
+        },
+        {
+            type : "img",
+            title: "E-Commerce Customer Churn Analysis Dashboard",
+            live: "",
+            source: "https://public.tableau.com/views/E-CommerceDashboardBetaGroup/MainDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+            component: "/assets/img/churndashboard.png"
+        },
+        {
+            type : "img",
+            title: "Supermarket Customer Behaviour Analysis Dashboard",
+            live: "",
+            source: "https://public.tableau.com/views/SupermarketCustomersDashboard/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link",
+            component: "/assets/img/superdashboard.png"
+        },
+        {
+            type : "img",
+            title: "CRUD Apps for Hospital Patients Service",
+            live: "",
+            source: "https://github.com/awesyahnanda/CRUD-Python-Project",
+            component: "/assets/img/03.jpg"
         }
     ]
 }
-// {/* <div class='tableauPlaceholder' 
-// id='viz1723200376485' 
-// style='position: relative'>
-//     <noscript>
-//         <a href='#'>
-//             <img alt='Main Dashboard ' src='https://public.tableau.com/static/images/E-/E-CommerceDashboardBetaGroup/MainDashboard/1_rss.png' style='border: none' />
-//             </a></noscript>
-//             <object class='tableauViz'  style='display:none;'>
-//                 <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
-//                 <param name='embed_code_version' value='3' />
-//                 <param name='site_root' value='' />
-//                 <param name='name' value='E-CommerceDashboardBetaGroup/MainDashboard' />
-//                 <param name='tabs' value='no' />
-//                 <param name='toolbar' value='yes' />
-//                 <param name='static_image' value='https://public.tableau.com/static/images/E-/E-CommerceDashboardBetaGroup/MainDashboard/1.png' /> 
-//                 <param name='animate_transition' value='yes' />
-//                 <param name='display_static_image' value='yes' />
-//                 <param name='display_spinner' value='yes' />
-//                 <param name='display_overlay' value='yes' />
-//                 <param name='display_count' value='yes' />
-//                 <param name='language' value='en-US' />
-//             </object>
-//             </div>                
-//             <script type='text/javascript'>
-//             var divElement = document.getElementById('viz1723200376485');
-//             var vizElement = divElement.getElementsByTagName('object')[0];
-//             if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1920px';vizElement.style.height='1107px';} 
-//             else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1920px';vizElement.style.height='1107px';} 
-//             else { vizElement.style.width='100%';vizElement.style.height='3827px';}                     
-//             var scriptElement = document.createElement('script');                    
-//             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                
-// </script> */}
