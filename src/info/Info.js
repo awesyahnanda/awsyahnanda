@@ -1,4 +1,3 @@
-import self from "../img/self.png"
 import Mock1 from './embed/churnproject'
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -27,7 +26,7 @@ export const info = {
     lastName: "Syahnanda",
     initials: "aws", // the example uses first and last, but feel free to use three or more if you like.
     position: "an Aspiring Data Enthusiast",
-    selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+    selfPortrait: "/assets/img/self.png", // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
