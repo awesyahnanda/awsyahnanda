@@ -63,7 +63,7 @@ export const info = {
             label: 'github'
         },
         {
-            link: "https://linkedin.com/alifsyahnanda",
+            link: "https://www.linkedin.com/in/alifsyahnanda/",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
