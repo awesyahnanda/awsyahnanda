@@ -241,6 +241,46 @@ export const info = {
         </>
         },
         {
+            type : "component",
+            title: "Clustering of countries in crisis for international HELP using KMEANS Unsupervised Learning",
+            live: "",
+            source: "https://github.com/awesyahnanda/Clustering-Countries-KMEANS",
+            component: <>
+            <div  style={{
+                        position: "relative",
+                        width: "95%",
+                        height: 0,
+                        paddingTop: "40%",
+                        paddingBottom: 0,
+                        boxShadow: "0 2px 8px 0 rgba(63,69,81,0.16)",
+                        marginTop: "1.6em",
+                        marginBottom: "0.9em",
+                        overflow: "hidden",
+                        borderRadius: 8,
+                        willChange: "transform"
+                    }}
+                >
+                    <iframe 
+                        loading="fast"
+                        style={{
+                            position: "absolute",
+                            width: "100%",
+                            height: "100%",
+                            top: 0,
+                            left: 0,
+                            border: "none",
+                            padding: 0,
+                            margin: 0
+                        }}
+                        src="https://www.canva.com/design/DAFmkOIlyF4/x_bBNZp8xAZYiIQ-84zQDA/view?embed" 
+                        allowfullscreen="allowfullscreen" 
+                        allow="fullscreen">
+                    </iframe>
+            </div>
+        </>
+        }
+        ,
+        {
             type : "img",
             title: "Simple HR-Dashboard",
             live: "",
