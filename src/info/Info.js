@@ -242,9 +242,9 @@ export const info = {
         },
         {
             type : "component",
-            title: "Clustering of countries in crisis for international HELP using KMEANS Unsupervised Learning",
+            title: "Product Development for GGL to Expanding Production and Dairy Products Beyond Fresh Milk",
             live: "",
-            source: "https://github.com/awesyahnanda/Clustering-Countries-KMEANS",
+            source: "https://drive.google.com/file/d/1YSHJ-EaqQvOWWSkJYGgXQDhljPC4tg3Z/view?usp=sharing",
             component: <>
             <div  style={{
                         position: "relative",
